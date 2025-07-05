@@ -7,10 +7,7 @@ int main(void) {
 	p = &a[1];
 	q = &a[9];
 	for (; q + 3 > p; ) *(q--) = *(p++) * 2;
-	for (i = 1; i < 8; i++)
-		sum = sum + a[i];
-
+	for (i = 1; i < 8; i++)	sum = sum + a[i];
 	printf("%d\n", sum);
-
 	return(0);
 }
