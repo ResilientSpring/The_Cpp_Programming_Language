@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.5 Pointer and const", "7.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2025 Level 4 Custom Civil Servant", "2025 Level 4 Custom Civil Servant\2025 Level 4 Custom Civil Servant.vcxproj", "{DB8C804B-86CC-446F-A1DC-0CFB07C9503D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2025 Level 4 Custom Civil Servant 2", "2025 Level 4 Custom Civil Servant 2\2025 Level 4 Custom Civil Servant 2.vcxproj", "{BC45D917-1320-4FD3-A962-AA88C5061146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{DB8C804B-86CC-446F-A1DC-0CFB07C9503D}.Release|x64.Build.0 = Release|x64
 		{DB8C804B-86CC-446F-A1DC-0CFB07C9503D}.Release|x86.ActiveCfg = Release|Win32
 		{DB8C804B-86CC-446F-A1DC-0CFB07C9503D}.Release|x86.Build.0 = Release|Win32
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Debug|x64.ActiveCfg = Debug|x64
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Debug|x64.Build.0 = Debug|x64
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Debug|x86.Build.0 = Debug|Win32
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Release|x64.ActiveCfg = Release|x64
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Release|x64.Build.0 = Release|x64
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Release|x86.ActiveCfg = Release|Win32
+		{BC45D917-1320-4FD3-A962-AA88C5061146}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
