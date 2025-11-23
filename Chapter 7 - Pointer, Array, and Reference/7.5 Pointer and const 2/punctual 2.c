@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+	// "The qualifier const can be applied to the declaration of any variable to specify that 
+	// its value will not be changed." [1]
+	const int model = 90;
+
+}
+
+// References:
+// 1. K&RII
