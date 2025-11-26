@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.5 const 2", "7.5 const 2\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.5 Pointer and const 2", "7.5 Pointer and const 2\7.5 Pointer and const 2.vcxproj", "{420DB5E5-874D-4424-BD49-673E2A4EF888}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.5 Pointer and const 3", "7.5 Pointer and const 3\7.5 Pointer and const 3.vcxproj", "{AD3453BC-5091-42CB-A506-60213585A82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{420DB5E5-874D-4424-BD49-673E2A4EF888}.Release|x64.Build.0 = Release|x64
 		{420DB5E5-874D-4424-BD49-673E2A4EF888}.Release|x86.ActiveCfg = Release|Win32
 		{420DB5E5-874D-4424-BD49-673E2A4EF888}.Release|x86.Build.0 = Release|Win32
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Debug|x64.ActiveCfg = Debug|x64
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Debug|x64.Build.0 = Debug|x64
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Debug|x86.Build.0 = Debug|Win32
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Release|x64.ActiveCfg = Release|x64
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Release|x64.Build.0 = Release|x64
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Release|x86.ActiveCfg = Release|Win32
+		{AD3453BC-5091-42CB-A506-60213585A82F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
