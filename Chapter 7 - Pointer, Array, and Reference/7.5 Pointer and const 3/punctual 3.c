@@ -13,4 +13,6 @@ void h()
 
 	char val; // val can be modified here.
 
+	g(&val);
+
 }
