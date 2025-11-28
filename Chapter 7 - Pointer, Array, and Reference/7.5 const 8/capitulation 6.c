@@ -4,6 +4,6 @@ int main() {
 
 	char characters[] = "capitulation";
 
-	char *const p = &character;
+	char *const p = &characters;
 
 }
