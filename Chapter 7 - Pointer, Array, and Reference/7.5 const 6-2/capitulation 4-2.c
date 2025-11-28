@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main() {
 
@@ -7,6 +7,7 @@ int main() {
 
 	char character = 'a';
 
+	// But the const pointer cannot be assigned a value afterward : [2]
 	p = &character;
 
 }
