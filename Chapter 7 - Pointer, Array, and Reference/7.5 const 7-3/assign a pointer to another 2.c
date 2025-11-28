@@ -8,6 +8,8 @@ int main() {
 
 	i = a + b;
 
+	printf("%d\n", i);
+
 	char character = 'a';
 
 	char* p = &character;
