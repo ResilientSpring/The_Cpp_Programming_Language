@@ -6,6 +6,6 @@ int main() {
 
 	char* p = &character;
 
-	char *const cp = character;
+	char *const cp = p;
 
 }
