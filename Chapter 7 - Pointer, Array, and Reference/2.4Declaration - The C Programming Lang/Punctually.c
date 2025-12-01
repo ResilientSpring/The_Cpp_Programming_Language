@@ -5,13 +5,13 @@ const char msg[] = "warning: ";
 
 int string_length(const char argument[]) {
 
-
+	return 0;
 
 }
 
 int string_length_2_(char const parameter[]) {
 
-
+	return 0;
 
 }
 
