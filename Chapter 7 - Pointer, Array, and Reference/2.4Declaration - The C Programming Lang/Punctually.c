@@ -14,3 +14,9 @@ int string_length_2_(char const parameter[]) {
 
 
 }
+
+int main() {
+
+
+
+}
