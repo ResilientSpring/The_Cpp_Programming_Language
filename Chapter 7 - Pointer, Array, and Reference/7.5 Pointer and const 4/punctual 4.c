@@ -7,5 +7,6 @@ void f1(char* p)
 
 	pc[3] = 'g';    // error: pc points to constant
 
+	pc = p;    // OK
 
 }
