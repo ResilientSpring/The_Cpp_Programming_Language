@@ -5,7 +5,7 @@ void f1(char* p)
 
 	const char* pc = s;  // pointer to constant
 
-	pc[3] = 'g';  
+	pc[3] = 'g';    // error: pc points to constant
 
 
 }
