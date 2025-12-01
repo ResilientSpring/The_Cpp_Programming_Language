@@ -10,4 +10,6 @@ void f1(char* p)
 	char *const cp = s;   // constant pointer
 	cp[3] = 'a';    // OK
 	cp = p;         // error: cp is constant
+
+	const char *const cpc = s;  // const pointer to const
 }
