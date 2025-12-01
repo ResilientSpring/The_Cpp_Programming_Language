@@ -4,5 +4,6 @@ void f1(char* p) {
 
 	char *const cp = s;   // constant pointer
 
-	cp[3] = 'a';
+	cp[3] = 'a';    // OK
+
 }
