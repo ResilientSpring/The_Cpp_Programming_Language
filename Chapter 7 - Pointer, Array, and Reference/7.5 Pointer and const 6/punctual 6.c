@@ -12,4 +12,6 @@ void f1(char* p)
 	cp = p;         // error: cp is constant
 
 	const char *const cpc = s;  // const pointer to const
+	cpc[3] = 'a';   // error: cpc points to constant
+	cpc = p;        // error: cpc is constant
 }
