@@ -4,4 +4,6 @@ void f4()
 
 	const int c = 2;
 
+	const int* p1 = &c;   // OK
+
 }
