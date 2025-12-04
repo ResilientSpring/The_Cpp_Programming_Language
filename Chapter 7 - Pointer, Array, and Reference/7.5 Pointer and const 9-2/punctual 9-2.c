@@ -10,6 +10,7 @@ void f4()
 	// come from that.
 	const int* p2 = &a;   // OK
 
+	// However, the address of a constant cannot be assigned to an unrestricted pointer because this would allow
 	int* p3 = &c;  // error: initialization of int* with const int*
 
 	*p3 = 7;  //  Try to change the value of c.
