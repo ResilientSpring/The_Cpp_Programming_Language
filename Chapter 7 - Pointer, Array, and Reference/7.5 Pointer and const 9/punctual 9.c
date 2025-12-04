@@ -12,3 +12,9 @@ void f4()
 
 	*p3 = 7;  //  Try to change the value of c.
 }
+
+int main() {
+
+	f4();
+
+}
