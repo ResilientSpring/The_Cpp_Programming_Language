@@ -8,4 +8,5 @@ void f4()
 
 	const int* p2 = &a;   // OK
 
+	int* p3 = &c;  // error: initialization of int* with const int*
 }
