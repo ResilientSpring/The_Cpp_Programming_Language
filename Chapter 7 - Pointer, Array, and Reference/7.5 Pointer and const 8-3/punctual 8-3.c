@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+	char a = 'A';
+
+	char *const p1 = &a;  // p1 is a constant pointer to a character.
+	char const* p2;  // p2 is a pointer to a character constant.
+	const char* p3;  // p3 is a pointer to a constant character. 
+
+	char const b = 'B';
+
+	p2 = &b;
+
+	const char c = 'C';
+
+	p3 = &c;
+
+	p2 = &c;
+
+	p3 = &b;
+
+}
