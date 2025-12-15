@@ -6,6 +6,8 @@ int main() {
 	char const* p2;  // p2 is a pointer to a character constant.
 	const char* p3;  // p3 is a pointer to a constant character. 
 
+	char a = 'A';
 
+	p1 = &a;
 
 }
