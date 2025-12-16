@@ -18,5 +18,8 @@
     <ClCompile Include="ChatGPT.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ChatGPT2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
