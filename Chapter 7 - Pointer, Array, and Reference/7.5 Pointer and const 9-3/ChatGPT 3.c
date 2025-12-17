@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-const int n = 5;
+#define n 5
+
+// const int n = 5;
 
 int main() {
 
