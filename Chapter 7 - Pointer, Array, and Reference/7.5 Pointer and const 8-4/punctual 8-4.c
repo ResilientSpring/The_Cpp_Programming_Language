@@ -14,9 +14,9 @@ int main() {
 
 	const char c = 'C';   // c is a constant character.
 
-	p3 = &c;
+	p3 = &c;  // p3, a pointer to a constant character, now points to the constant character c. 
 
-	p2 = &c;
+	p2 = &c;  // p2, a pointer to a character constant, now points to the constant character c.
 
 	p3 = &b;
 
