@@ -10,7 +10,7 @@ int main() {
 
 	char const b = 'B';   // b is a character constant. 
 
-	p2 = &b;              // p2, a pointer to a character constant, now points to a character constant b.
+	p2 = &b;              // p2, a pointer to a constant character, now points to a character constant b.
 
 	const char c = 'C';   // c is a constant character.
 
