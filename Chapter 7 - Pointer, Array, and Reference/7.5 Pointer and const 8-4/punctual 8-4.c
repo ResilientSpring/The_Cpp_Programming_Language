@@ -18,6 +18,6 @@ int main() {
 
 	p2 = &c;  // p2, a pointer to a character constant, now points to the constant character c.
 
-	p3 = &b;
+	p3 = &b;  // p3, a pointer to a constant character, now points to the character constant b.
 
 }
