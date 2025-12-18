@@ -5,8 +5,8 @@ int main() {
 	char a = 'A';
 
 	char *const p1 = &a;  // p1 is a constant pointer to a character.
-	char const* p2;       // p2 is a pointer to a character constant.
-	const char* p3;       // p3 is a pointer to a constant character. 
+	char const* p2;       // p2 is a pointer to a constant character.
+	const char* p3;       // p3 is a pointer to a character constant. 
 
 	char const b = 'B';   // b is a character constant. 
 
