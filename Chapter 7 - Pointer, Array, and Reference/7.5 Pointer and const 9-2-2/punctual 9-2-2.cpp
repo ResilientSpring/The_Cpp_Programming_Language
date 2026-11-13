@@ -1,0 +1,24 @@
+void f4()
+{
+	const int c = 2;
+
+	const int* p1 = &c;   // OK
+
+	int a = 1;
+
+	// You can assign the address of a non-const variable to a pointer to constant because no harm can
+	// come from that.
+	const int* p2 = &a;   // OK
+
+	// However, the address of a constant cannot be assigned to an unrestricted pointer because this would 
+	// allow the object's value to be changed.
+	int* p3 = &c;  // error: initialization of int* with const int*
+
+	*p3 = 7;  //  Try to change the value of c.
+}
+
+int main() {
+
+	f4();
+
+}
