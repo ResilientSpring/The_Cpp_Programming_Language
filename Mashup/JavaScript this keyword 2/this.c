@@ -13,7 +13,7 @@ struct Car {
 
 void Car_initialization(struct Car * this, char * seats, char * engine, char * radio) 
 {
-	
+	strcpy(this->seats, seats);
 }
 
 
